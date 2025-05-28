@@ -1,0 +1,38 @@
+/* Main image */
+img {
+  height: 300px;
+}
+
+/* Description text */
+.description {
+  font-size: 20px;
+}
+
+#cook-time {
+  font-weight: bold;
+  color: #009222;
+}
+
+/* Square point */
+.ingredients li {
+  list-style: square;
+}
+
+p.time {
+  color: gray;
+  font-family: fantasy;
+}
+
+/* Interactive when mouse over "here" text */
+a.external-link:hover {
+  color: red;
+}
+
+.external-link {
+  color: SeaGreen;
+}
+
+/* Group of the same selectors declarations block*/
+h1, h2, p, li {
+  font-family: Helvetica;
+}
